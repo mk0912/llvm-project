@@ -377,7 +377,7 @@ void LinkerDriver::parseDirectives(InputFile *file) {
       addUndefined(arg->getValue());
       break;
     case OPT_manifestdependency:
-      config->manifestDependencies.insert(arg->getValue());
+      //config->manifestDependencies.insert(arg->getValue());
       break;
     case OPT_merge:
       parseMerge(arg->getValue());
